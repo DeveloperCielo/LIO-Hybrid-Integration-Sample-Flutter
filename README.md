@@ -32,7 +32,7 @@ Seu valor pode ser visualizado clicando em ‘detalhes’ na coluna ‘Access To
 Seu valor pode ser visualizado na coluna Client ID, dentro do menu 
 ['Client ID Cadastrados'](https://desenvolvedores.cielo.com.br/api-portal/myapps)
 
-## Alguns pontos importantes a serem visto no exemplo:
+## Alguns pontos importantes a serem observados no exemplo:
 * No pacote Android arquivo Manifest é necessário a declaração da intent filter:
 ![intent-filter](images/intent-manifest.jpg)
 
