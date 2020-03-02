@@ -32,7 +32,17 @@ Seu valor pode ser visualizado clicando em ‘detalhes’ na coluna ‘Access To
 Seu valor pode ser visualizado na coluna Client ID, dentro do menu 
 ['Client ID Cadastrados'](https://desenvolvedores.cielo.com.br/api-portal/myapps)
 
-## Detalhes/Libs Auxiliares
+## Alguns pontos importantes a serem observados no exemplo:
+* No pacote Android arquivo Manifest é necessário a declaração da intent filter:
+![intent-filter](images/intent-manifest.jpg)
+
+* Função responsável por fazer a chamada via deep linking:
+![intent-filter](images/deep-link.jpg)
+
+* Função listener, responsável por ficar aguardando callBack da transação:
+![intent-filter](images/listener.jpg)
+
+## Libs Auxiliares
 Foi necessário o uso das bibliotecas auxiliares:
 
 Url_Launcher - [url_launcher](https://pub.dev/packages/url_launcher#-readme-tab-)
