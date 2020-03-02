@@ -39,7 +39,7 @@ Seu valor pode ser visualizado na coluna Client ID, dentro do menu
 * Função responsável por fazer a chamada via deep linking:
 ![intent-filter](images/deep-link.jpg)
 
-* Função listener do callBack da transação:
+* Função listener, responsável por ficar aguardando callBack da transação:
 ![intent-filter](images/listener.jpg)
 
 ## Libs Auxiliares
